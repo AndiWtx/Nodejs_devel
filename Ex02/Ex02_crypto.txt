@@ -1,0 +1,26 @@
+Andi@Andi MINGW64 /e/develhope/Nodejs_devel (main)
+$ node
+Welcome to Node.js v19.7.0.
+Type ".help" for more information.
+> .help
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the REPL
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session to a file
+
+% use object-name+ "." + 2-tab-clicks
+Press Ctrl+C to abort current expression, Ctrl+D to exit the REPL 
+> crypto.
+crypto.__proto__             crypto.hasOwnProperty        crypto.isPrototypeOf         crypto.propertyIsEnumerable
+crypto.toLocaleString        crypto.toString              crypto.valueOf
+
+crypto.constructor           crypto.getRandomValues       crypto.randomUUID            crypto.subtle
+
+> crypto.radomUUID()
+Uncaught TypeError: crypto.radomUUID is not a function
+> crypto.randomUUID()
+'5db35c84-bef9-4483-8cac-5db9be6df0c9'
+>
